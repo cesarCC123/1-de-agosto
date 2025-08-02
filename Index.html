@@ -1,0 +1,89 @@
+DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para Mi Novia BCode</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="./css/styles.css" />
+  <style>
+    #musicBtn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 9999;
+      background-color: transparent;
+      border: none;
+      font-size: 28px;
+      cursor: pointer;
+      color: #e91e63;
+    }
+    #musicBtn:hover {
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="matrix-hearts" id="matrixHearts"></div>
+
+  <div class="card">
+    <div class="header">
+      <h1>Feliz Día de la Novia <br>Mi Niña</h1>
+      <div class="date">1 de Agosto</div>
+    </div>
+
+    <!-- Botón de música -->
+    <button id="musicBtn">♪</button>
+
+    <div class="photo-frame">
+      <img src="./Imagen/Girasoles.png.png" alt="Girasoles">
+    </div>
+
+    <p class="message" style="animation-delay: 0.3s;">
+      En este día especial, quiero que sepas que...
+    </p>
+
+    <p class="message" style="animation-delay: 0.6s;">
+      Tú haces que mi corazón florezca, como un girasol al amanecer.
+    </p>
+
+    <button class="heart-btn" id="heartBtn">❤️ Abre Mi Corazón</button>
+
+    <div class="signature">Para ti, con amor</div>
+  </div>
+
+  <div class="modal" id="letterModal">
+    <span class="close-btn" id="closeBtn">×</span>
+    <div class="modal-content">
+      <div class="torn-paper">
+        <h2 class="letter-title">Para Mi Niña</h2>
+        <div id="letterContent" style="padding: 20px; font-size: 16px; line-height: 1.6; color: #e91e63; text-align: left;">
+  <p>Amada Mía:</p>
+  
+  <p>Ya es tardecito, lo sé, y aunque me hubiera gustado enviártelo antes, la verdad es que me la estuve pensando mucho entre si debía o no debía enviártelo. Pero bueno, al final supongo que sí te lo llegué a mandar. Aparte me gusta la perfección y por eso me demoré más de lo que quería.</p>
+  
+  <p>Por otro lado, mi laptop no cooperaba y me costaba mucho lograr lo que tenía en mente. Pero aquí estoy, porque no quería dejar que este 1 de agosto, Día de la Novia, la pases como espectadora💗.</p>
+  
+  <p>Sé que no estamos en una relación ahora, pero hay algo que tengo claro, no importa lo que pase, mientras YO esté, nunca serás una espectadora💗.</p>
+  
+  <p>¿Sabes por qué te digo que conmigo siempre serás protagonista y nunca espectadora? Porque contigo todo cambia, y yo me siento completamente diferente. Con cada mensaje tuyo, cada llamadita y cada mirada tuya es como si el tiempo se detuviera. Eres esa presencia que ilumina incluso mis días más oscuros. Y quiero que sepas que en cada momento, en cada día, tú ocupas un lugar muy especial en mi corazón💗.</p>
+  
+  <p>Hoy mas que nunca quiero que te sientas importante. Porque lo eres. Y bueno, lo que compartimos es único y no lo quiero dejar ir. Gracias por conpartir un poco de tu tiempo conmigo, Gracias por estar ahí, por ser tú y por ser tan especial💗.</p>
+  
+  <p>Aunque estos días no hemos hablado tanto, eso no cambia lo que siento por ti. Me importas más de lo que las palabras pueden expresar, y siempre estare para hacerte sentir única y especial💗.</p>
+  
+  <p>Bueno hoy, en este día tan especial, quiero que sepas cuánto te aprecio, cuánto te valoro. Lo que compartimos tiene un lugar muy especial en mi corazón y siempre lo tendrá💗.</p>
+</div>
+
+        <div class="letter-signature">Con todo mi amor</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ya no usamos esta etiqueta de audio -->
+  <!-- <audio controls>...</audio> -->
+
+  <script src="./Scrip/Script.js"></script>
+</body>
+</html>
